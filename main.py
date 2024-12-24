@@ -66,7 +66,7 @@ def setup_main_frame(root):
     root.configure(bg="#242124")
 
     # Application logo
-    image_path = pathlib.Path(r"logo.png")
+    image_path = pathlib.Path(r"logo.png")  # Ensure the logo path is correct
     load_logo(image_path)
 
     # Title Label
@@ -96,4 +96,4 @@ def setup_main_frame(root):
 if __name__ == "__main__":
     root = tk.Tk()
     setup_main_frame(root)
-    root.mainloop()  
+    root.mainloop()
